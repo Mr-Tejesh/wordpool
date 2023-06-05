@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'DeadpoolFont';
+    src: url('./assets/fonts/DeadpoolMovie-9AzL.ttf') format('truetype');
+
+  }
+@font-face {
+    font-family: 'rexFont';
+    src: url('./assets/fonts/Rex-Bold.ttf') format('truetype');
+}
+
+
+body{
+    background-color: 
+    rgb(126, 16, 16);
+    color: whitesmoke;
+    
+}
+body::-webkit-scrollbar {
+    width: 0.1em;
+    background-color: transparent;
+  }
+.flex-container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.flex-container-2{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    height: 60%;
+    margin-top: 5rem;
+    width: 7rem;
+    position: relative;
+}
+
+h1{
+    text-align: center;
+    margin: 2rem auto 2rem auto;
+    height: 1rem;
+    font-family: 'rexFont';
+    display: block;
+}
+
+.words{
+    margin-top: 9rem;
+    margin-bottom: 10rem;
+    font-size: 5rem;
+    font-family: "DeadpoolFont";
+}
+#start{
+    width: 100%;
+    height: 100%;
+    background-color: #000000dd;
+    color: white;
+    border-radius: 20rem;
+    font-family: 'rexFont';
+    font-size: 2rem;
+    transform: rotate("90deg")
+}
+#stop{
+    width: 100%;
+    height: 100%;
+    background-color: #000000dd;
+    color: white;
+    border-radius: 20rem;
+    font-family: 'rexFont';
+    font-size: 2rem;
+    transform: rotate("90deg")
+}
+
+.timer{
+    margin-top: 3rem;
+    width: 150px;
+    height: 150px;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "DeadpoolFont";
+}
+
